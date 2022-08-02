@@ -1,4 +1,4 @@
-// constructor
+// constructor function
 
 function Person(name) {
   this.name = name;
