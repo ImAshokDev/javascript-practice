@@ -26,3 +26,16 @@ if ("name" in user) {
 if ("age" in user) {
   console.log("Yes!");
 } else console.log("No!");
+
+// object cloning
+// 1)
+let another1 = user;
+console.log("Object Cloning....1", another1);
+
+// 2)
+let another2 = Object.assign(user);
+console.log("Object Cloning....2", another2);
+
+// 3)
+let another3 = { ...user };
+console.log("Object Cloning....3", another3);
